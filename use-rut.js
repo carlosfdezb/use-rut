@@ -39,7 +39,6 @@ const useRut = () => {
       let final = format(cuerpo) + '-' + dv;
       if (dvEsperado === (dv === 'k' ? 10 : dv === '0' ? 11 : parseInt(dv)) && cuerpo.length > 6) { setValido(true) } else { setValido(false) }
       if(final !== '-undefined') { setRut(final) } else { setRut('') }
-      console.log('esperado:',dvEsperado, 'obtenido:',dv === 'k' ? 10 : dv === '0' ? 11 : parseInt(dv))
   }, [original]);
     
   return [rut, valido, setOriginal];

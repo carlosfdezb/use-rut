@@ -1,6 +1,6 @@
 {
   "name": "use-rut",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A React Custom Hook that allows to format and verify Rut (Chilean DNI)",
   "main": "use-rut.js",
   "scripts": {
