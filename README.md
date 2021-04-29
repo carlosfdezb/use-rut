@@ -2,6 +2,8 @@
  A React Custom Hook that allows to format rut (Chilean DNI), ** format only, does not check if it is valid or not **.
 </p>
 
+[![Edit react-swipeable image carousel](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/use-rut-5st12?file=/src/App.js)
+
 ## Installation
 ```
 npm install use-rut
