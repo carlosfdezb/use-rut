@@ -1,0 +1,25 @@
+{
+  "name": "use-rut",
+  "version": "1.0.0",
+  "description": "A React Custom Hook that allows to format rut (Chilean DNI)",
+  "main": "use-rut.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rut",
+    "hook",
+    "use-rut",
+    "useRut",
+    "chile"
+  ],
+  "author": "Carlos Fernández <carlosfdezb@gmail.com>",
+  "contributors": [
+    "Carlos Fernández (https://github.com/carlosfdezb)"
+  ],
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
