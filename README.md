@@ -1,6 +1,6 @@
 # useRut hook
 
- A React Custom Hook that allows to format rut (Chilean DNI), ** format only, does not check if it is valid or not **.
+ A React Custom Hook that allows to format and verify Rut (Chilean DNI).
 
 [![Edit use-rut](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/use-rut-5st12?file=/src/App.js)
 
@@ -15,10 +15,11 @@ npm install use-rut
 import useRut from 'use-rut';
 
 function App() {
-  const [rut, setRut] = useRut();
+  const [rut, valido, setRut] = useRut();
   return (
     <div className="App">
-        <input onChange={(e) => setRut(e.target.value)} value={rut}/>
+      <input onChange={(e) => setRut(e.target.value)} value={rut}/>
+      <h2>{`valido: ${valido}`}</h2>
     </div>
   );
 }

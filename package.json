@@ -1,7 +1,7 @@
 {
   "name": "use-rut",
-  "version": "1.0.2",
-  "description": "A React Custom Hook that allows to format rut (Chilean DNI)",
+  "version": "1.1.0",
+  "description": "A React Custom Hook that allows to format and verify Rut (Chilean DNI)",
   "main": "use-rut.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
